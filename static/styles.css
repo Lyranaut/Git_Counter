@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    padding-left: 20px;
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: bold;
+}
+
+#most-viewed-repo {
+    color: #007bff;
+    cursor: pointer;
+}
+
+#most-viewed-repo:hover {
+    text-decoration: underline;
+}

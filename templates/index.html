@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>GitHub Profile Following Counter</title>
+</head>
+<body>
+    <h1>GitHub Profile Following Counter</h1>
+    
+    <!-- Добавляем поле ввода и кнопку для поиска -->
+    <label for="search">Search GitHub Username:</label>
+    <input type="text" id="search" name="search">
+    <button onclick="searchUser()">Search</button>
+
+    <!-- Отображаем имя пользователя, количество подписок, количество подписчиков и ссылку на самый просматриваемый репозиторий -->
+    <p>Username: <span id="username"></span></p>
+    <p>Total Following: <span id="total-following">Loading...</span></p>
+    <p>Total Followers: <span id="total-followers">Loading...</span></p>
+    <p>Most Viewed Repository: <span id="most-viewed-repo">Loading...</span></p>
+    
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
